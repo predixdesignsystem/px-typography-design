@@ -1,0 +1,23 @@
+{
+  "name": "pdx-typography",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Base typographic styles for Predix Design Extension",
+  "main": "_base.typography.scss",
+  "keywords": [
+    "pdx",
+    "sass",
+    "typography"
+  ],
+  "license": "Apache 2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
