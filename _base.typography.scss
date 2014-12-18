@@ -6,3 +6,7 @@
 @include font-face('GE Inspira Serif', '/type/GEInspiraSerif-Italic-v01', normal, italic);
 @include font-face('GE Inspira Serif', '/type/GEInspiraSerif-Bold-v01', bold, normal);
 @include font-face('GE Inspira Serif', '/type/GEInspiraSerif-BoldItalic-v01', bold, italic);
+
+html {
+  font-family: "GE Inspira Sans", sans-serif;
+}
