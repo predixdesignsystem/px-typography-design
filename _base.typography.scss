@@ -17,3 +17,11 @@ html {
 .weight--light      { font-weight:300!important; }
 .weight--normal     { font-weight:400!important; }
 .weight--semibold   { font-weight:600!important; }
+
+.status {
+  font-weight: bold;
+}
+
+.status--clear {
+  color: rgb(9, 147, 9);
+}
