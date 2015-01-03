@@ -9,6 +9,11 @@
 
 html {
   font-family: "GE Inspira Sans", sans-serif;
+  color: $gray-dark;
+}
+
+h2, h3 {
+  color: $black;
 }
 
 /**
@@ -22,6 +27,14 @@ html {
   font-weight: bold;
 }
 
+.status--warning {
+  color: $red;
+}
+
+.status--alert {
+  color: $blue;
+}
+
 .status--clear {
-  color: rgb(9, 147, 9);
+  color: $green;
 }
