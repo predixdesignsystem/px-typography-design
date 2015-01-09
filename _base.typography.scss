@@ -16,13 +16,21 @@ h2, h3 {
   color: $black;
 }
 
+.status {
+  font-weight: bold;
+}
+
 /**
  * Font weights
  */
-.weight--light      { font-weight:300!important; }
-.weight--normal     { font-weight:400!important; }
-.weight--semibold   { font-weight:600!important; }
+.weight--light {
+  font-weight: 300!important;
+}
 
-.status {
-  font-weight: bold;
+.weight--normal {
+  font-weight: 400!important;
+}
+
+.weight--semibold {
+  font-weight: 600!important;
 }
