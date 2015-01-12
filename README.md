@@ -1,4 +1,4 @@
-pdx-typography
+px-typography
 ==============
 
-Base typographic styles for Predix Design Extension
+Base typographic styles for Predix Experience

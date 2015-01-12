@@ -1,11 +1,11 @@
 {
-  "name": "pdx-typography",
+  "name": "px-typography",
   "version": "0.0.1",
-  "homepage": "git@github.sw.ge.com:jrogerson/pdx-typography.git",
+  "homepage": "git://github.sw.ge.com/jrogerson/px-typography.git",
   "authors": [
     "General Electric"
   ],
-  "description": "Base typographic styles for Predix Design Extension",
+  "description": "Base typographic styles for Predix Experience",
   "main": "_base.typography.scss",
   "keywords": [
     "pdx",
