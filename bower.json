@@ -20,5 +20,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "px-colors": "git://github.sw.ge.com/jrogerson/px-colors.git#master",
+    "px-mixins": "git://github.sw.ge.com/jrogerson/px-mixins.git#master"
+  }
 }
