@@ -1,3 +1,8 @@
+@import "lib/inuit-defaults/settings.defaults";
+@import "lib/inuit-mixins/tools.mixins";
+@import "lib/px-colors/settings.colors";
+@import "lib/px-mixins/tools.mixins";
+
 @include font-face('GE Inspira Sans', '/type/GEInspiraSans-Regular-v01');
 @include font-face('GE Inspira Sans', '/type/GEInspiraSans-Italic-v01', normal, italic);
 @include font-face('GE Inspira Sans', '/type/GEInspiraSans-Bold-v01', bold, normal);
