@@ -8,7 +8,7 @@
   "description": "Base typographic styles for Predix Experience",
   "main": "_base.typography.scss",
   "keywords": [
-    "pdx",
+    "px",
     "sass",
     "typography"
   ],
