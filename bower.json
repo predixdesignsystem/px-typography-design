@@ -1,7 +1,7 @@
 {
-  "name": "px-typography",
+  "name": "px-typography-design",
   "version": "0.0.1",
-  "homepage": "git://github.sw.ge.com/jrogerson/px-typography.git",
+  "homepage": "git://github.sw.ge.com/pxc/px-typography-design.git",
   "authors": [
     "General Electric"
   ],
@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "px-colors": "git://github.sw.ge.com/jrogerson/px-colors.git#master",
-    "px-mixins": "git://github.sw.ge.com/jrogerson/px-mixins.git#master"
+    "px-colors-design": "git://github.sw.ge.com/pxc/px-colors-design.git#master",
+    "px-mixins-design": "git://github.sw.ge.com/pxc/px-mixins-design.git#master"
   }
 }
