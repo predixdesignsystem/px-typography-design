@@ -8,4 +8,21 @@
  
 @import "px-functions-design/sass/tools.functions";
 
-@if import-once('base.typography') {}
+@if import-once('base.typography') {
+  
+  /**
+   * Font weights
+   */
+  .weight--light {
+    font-weight: 300!important;
+  }
+  
+  .weight--normal {
+    font-weight: 400!important;
+  }
+  
+  .weight--semibold {
+    font-weight: 600!important;
+  }
+
+}
