@@ -6,7 +6,7 @@
  * Base typographic styles for Predix Experience
  */
  
-@import "px-functions-design/sass/tools.functions";
+@import "../px-functions-design/tools.functions";
 
 @if import-once('base.typography') {
   
