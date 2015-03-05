@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
+    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master",
+    "px-mixins-design": "git://github.sw.ge.com/pxc/px-mixins-design.git#master"
   }
 }

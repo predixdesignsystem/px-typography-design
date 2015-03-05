@@ -6,9 +6,24 @@
  * Base typographic styles for Predix Experience
  */
  
-@import "../px-functions-design/tools.functions";
+@import "inuit-defaults/settings.defaults";
+@import "px-functions-design/tools.functions";
+@import "px-mixins-design/tools.mixins";
 
 @if import-once('base.typography') {
+  
+  @include font-face('GE Inspira', '../type/GEInspMd');
+  @include font-face('GE Inspira', '../type/GEInspMdIt', normal, italic);
+  @include font-face('GE Inspira', '../type/GEInspBd', bold, normal);
+  @include font-face('GE Inspira', '../type/GEInspBI', bold, italic);
+  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-Regular-v01');
+  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-Italic-v01', normal, italic);
+  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-Bold-v01', bold, normal);
+  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-BoldItalic-v01', bold, italic);
+  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-Regular-v01');
+  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-Italic-v01', normal, italic);
+  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-Bold-v01', bold, normal);
+  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-BoldItalic-v01', bold, italic);
   
   /**
    * Font weights
