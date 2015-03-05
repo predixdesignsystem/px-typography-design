@@ -6,9 +6,9 @@
  * Base typographic styles for Predix Experience
  */
  
-@import "inuit-defaults/settings.defaults";
-@import "px-functions-design/tools.functions";
-@import "px-mixins-design/tools.mixins";
+@import "../inuit-defaults/settings.defaults";
+@import "../px-functions-design/tools.functions";
+@import "../px-mixins-design/tools.mixins";
 
 @if import-once('base.typography') {
   
