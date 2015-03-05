@@ -4,17 +4,14 @@ The Predix Experience Typography module defines styles for typography.
 
 ## Dependencies
 
-Px's Typography module depends on one other Px module:
+Px's Typography module depends on two other Px modules:
 
 * [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
-
-If you are using webfonts, an additional dependency is required:
-
 * [px-mixins-design](https://github.sw.ge.com/pxc/px-mixins-design)
 
 ## Installation
 
-Install this module and its dependency using bower
+Install this module and its dependencies using bower:
 
     bower install --save https://github.sw.ge.com/pxc/px-typography-design.git
 
