@@ -5,37 +5,45 @@
 /**
  * Base typographic styles for Predix Experience
  */
- 
+
 @import "../inuit-defaults/settings.defaults";
 @import "../px-functions-design/tools.functions";
 @import "../px-mixins-design/tools.mixins";
 
 @if import-once('base.typography') {
-  
-  @include font-face('GE Inspira', '../type/GEInspMd');
-  @include font-face('GE Inspira', '../type/GEInspMdIt', normal, italic);
-  @include font-face('GE Inspira', '../type/GEInspBd', bold, normal);
-  @include font-face('GE Inspira', '../type/GEInspBI', bold, italic);
-  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-Regular-v01');
-  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-Italic-v01', normal, italic);
-  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-Bold-v01', bold, normal);
-  @include font-face('GE Inspira Sans', '../type/GEInspiraSans-BoldItalic-v01', bold, italic);
-  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-Regular-v01');
-  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-Italic-v01', normal, italic);
-  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-Bold-v01', bold, normal);
-  @include font-face('GE Inspira Serif', '../type/GEInspiraSerif-BoldItalic-v01', bold, italic);
-  
+
+  $predix-typography-for-web-component: false !default;
+
+  @if ($predix-typography-for-web-component == true){
+    $predix-font-path-prefix: '../px-typography-design/'
+  } @else{
+    $predix-font-path-prefix: '../'
+  }
+
+  @include font-face('GE Inspira', $predix-font-path-prefix + 'type/GEInspMd');
+  @include font-face('GE Inspira', $predix-font-path-prefix + 'type/GEInspMdIt', normal, italic);
+  @include font-face('GE Inspira', $predix-font-path-prefix + 'type/GEInspBd', bold, normal);
+  @include font-face('GE Inspira', $predix-font-path-prefix + 'type/GEInspBI', bold, italic);
+  @include font-face('GE Inspira Sans', $predix-font-path-prefix + 'type/GEInspiraSans-Regular-v01');
+  @include font-face('GE Inspira Sans', $predix-font-path-prefix + 'type/GEInspiraSans-Italic-v01', normal, italic);
+  @include font-face('GE Inspira Sans', $predix-font-path-prefix + 'type/GEInspiraSans-Bold-v01', bold, normal);
+  @include font-face('GE Inspira Sans', $predix-font-path-prefix + 'type/GEInspiraSans-BoldItalic-v01', bold, italic);
+  @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-Regular-v01');
+  @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-Italic-v01', normal, italic);
+  @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-Bold-v01', bold, normal);
+  @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-BoldItalic-v01', bold, italic);
+
   /**
    * Font weights
    */
   .weight--light {
     font-weight: 300!important;
   }
-  
+
   .weight--normal {
     font-weight: 400!important;
   }
-  
+
   .weight--semibold {
     font-weight: 600!important;
   }
