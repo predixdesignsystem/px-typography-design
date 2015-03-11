@@ -10,15 +10,17 @@
 @import "../px-functions-design/tools.functions";
 @import "../px-mixins-design/tools.mixins";
 
+$predix-font-family: "GE Inspira Sans", sans-serif !default;
+
+$predix-typography-for-web-component: false !default;
+
+@if ($predix-typography-for-web-component == true){
+  $predix-font-path-prefix: '../px-typography-design/'
+} @else{
+  $predix-font-path-prefix: '../'
+}
+
 @if import-once('base.typography') {
-
-  $predix-typography-for-web-component: false !default;
-
-  @if ($predix-typography-for-web-component == true){
-    $predix-font-path-prefix: '../px-typography-design/'
-  } @else{
-    $predix-font-path-prefix: '../'
-  }
 
   @include font-face('GE Inspira', $predix-font-path-prefix + 'type/GEInspMd');
   @include font-face('GE Inspira', $predix-font-path-prefix + 'type/GEInspMdIt', normal, italic);
@@ -32,6 +34,14 @@
   @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-Italic-v01', normal, italic);
   @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-Bold-v01', bold, normal);
   @include font-face('GE Inspira Serif', $predix-font-path-prefix + 'type/GEInspiraSerif-BoldItalic-v01', bold, italic);
+  
+  html {
+    font-family: $predix-font-family;
+  }
+  
+  :host {
+    font-family: $predix-font-family;
+  }
 
   /**
    * Font weights
