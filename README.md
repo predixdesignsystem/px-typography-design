@@ -6,20 +6,20 @@ The Predix Experience Typography module defines styles for typography.
 
 Px's Typography module depends on two other Px modules:
 
-* [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
-* [px-mixins-design](https://github.sw.ge.com/pxc/px-mixins-design)
+* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
+* [px-mixins-design](https://github.sw.ge.com/PXd/px-mixins-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-typography-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-typography-design.git
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
     @import "../px-typography-design/base.typography";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
