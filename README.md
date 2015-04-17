@@ -4,8 +4,9 @@ The Predix Experience Typography module defines styles for typography.
 
 ## Dependencies
 
-Px's Typography module depends on two other Px modules:
+Px's Typography module depends on three other Px modules:
 
+* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
 * [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 * [px-mixins-design](https://github.sw.ge.com/PXd/px-mixins-design)
 
