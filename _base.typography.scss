@@ -49,5 +49,9 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   .weight--semibold {
     font-weight: 600!important;
   }
+  
+  small {
+    @include inuit-font-size(12px);
+  }
 
 }
