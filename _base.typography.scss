@@ -14,18 +14,18 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 
 @if import-once('base.typography') {
 
-  @include font-face('GE Inspira', '../px-typography-design/type/GEInspMd');
-  @include font-face('GE Inspira', '../px-typography-design/type/GEInspMdIt', normal, italic);
-  @include font-face('GE Inspira', '../px-typography-design/type/GEInspBd', bold, normal);
-  @include font-face('GE Inspira', '../px-typography-design/type/GEInspBI', bold, italic);
-  @include font-face('GE Inspira Sans', '../px-typography-design/type/GEInspiraSans-Regular-v01');
-  @include font-face('GE Inspira Sans', '../px-typography-design/type/GEInspiraSans-Italic-v01', normal, italic);
-  @include font-face('GE Inspira Sans', '../px-typography-design/type/GEInspiraSans-Bold-v01', bold, normal);
-  @include font-face('GE Inspira Sans', '../px-typography-design/type/GEInspiraSans-BoldItalic-v01', bold, italic);
-  @include font-face('GE Inspira Serif', '../px-typography-design/type/GEInspiraSerif-Regular-v01');
-  @include font-face('GE Inspira Serif', '../px-typography-design/type/GEInspiraSerif-Italic-v01', normal, italic);
-  @include font-face('GE Inspira Serif', '../px-typography-design/type/GEInspiraSerif-Bold-v01', bold, normal);
-  @include font-face('GE Inspira Serif', '../px-typography-design/type/GEInspiraSerif-BoldItalic-v01', bold, italic);
+  @include font-face('GE Inspira', '../../px-typography-design/type/GEInspMd');
+  @include font-face('GE Inspira', '../../px-typography-design/type/GEInspMdIt', normal, italic);
+  @include font-face('GE Inspira', '../../px-typography-design/type/GEInspBd', bold, normal);
+  @include font-face('GE Inspira', '../../px-typography-design/type/GEInspBI', bold, italic);
+  @include font-face('GE Inspira Sans', '../../px-typography-design/type/GEInspiraSans-Regular-v01');
+  @include font-face('GE Inspira Sans', '../../px-typography-design/type/GEInspiraSans-Italic-v01', normal, italic);
+  @include font-face('GE Inspira Sans', '../../px-typography-design/type/GEInspiraSans-Bold-v01', bold, normal);
+  @include font-face('GE Inspira Sans', '../../px-typography-design/type/GEInspiraSans-BoldItalic-v01', bold, italic);
+  @include font-face('GE Inspira Serif', '../../px-typography-design/type/GEInspiraSerif-Regular-v01');
+  @include font-face('GE Inspira Serif', '../../px-typography-design/type/GEInspiraSerif-Italic-v01', normal, italic);
+  @include font-face('GE Inspira Serif', '../../px-typography-design/type/GEInspiraSerif-Bold-v01', bold, normal);
+  @include font-face('GE Inspira Serif', '../../px-typography-design/type/GEInspiraSerif-BoldItalic-v01', bold, italic);
 
   html {
     font-family: $predix-font-family;
