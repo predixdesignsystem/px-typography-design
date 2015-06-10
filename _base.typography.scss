@@ -7,7 +7,7 @@
  */
 
 @import "../px-defaults-design/settings.defaults";
-@import "../px-functions-design/tools.functions";
+@import "../px-colors-design/settings.colors";
 @import "../px-mixins-design/tools.mixins";
 
 $predix-font-family: "GE Inspira Sans", sans-serif !default;
@@ -38,6 +38,7 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   /**
    * Font weights
    */
+   
   .weight--light {
     font-weight: 300!important;
   }
@@ -49,9 +50,108 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
   .weight--semibold {
     font-weight: 600!important;
   }
-
+  
+  /* Links
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background color from active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  
+  /**
+   * Default link colors
+   */
+   
+    &:link,
+    &:visited {
+      color: $primary-blue;
+    }
+    
+    &:hover {
+      color: $primary-blue-hover;
+    }
+    
+    &:active {
+      color: $primary-blue-pressed;
+    }
+  
+  /**
+   * Improve readability when focused and also mouse hovered in all browsers.
+   */
+  
+    &:active,
+    &:hover {
+      outline: 0;
+    }
+  
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+   */
+  
+  abbr[title] {
+    border-bottom: 1px dotted;
+  }
+  
+  /**
+   * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+   */
+  
+  b,
+  strong {
+    font-weight: bold;
+  }
+  
+  /**
+   * Address styling not present in Safari and Chrome.
+   */
+  
+  dfn {
+    font-style: italic;
+  }
+  
+  /**
+   * Address styling not present in IE 8/9.
+   */
+  
+  mark {
+    background: #ff0;
+    color: #000;
+  }
+  
+  /**
+   * Address inconsistent and variable font size in all browsers.
+   */
+  
   small {
-    @include inuit-font-size(12px);
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  sub {
+    bottom: -0.25em;
   }
 
 }
