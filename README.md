@@ -1,6 +1,6 @@
 # Typography
 
-The Predix Experience Typography module defines styles for typography.
+The Predix Experience Typography module defines styles for basic typography.
 
 ## Sass Docs
 
