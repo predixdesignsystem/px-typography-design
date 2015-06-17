@@ -28,15 +28,7 @@ Install this module and its dependencies using bower:
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
-    @import "../px-typography-design/base.typography";
-
-See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
-
-## Import once
-
-All rulesets are wrapped in the following `@if` statement:
-
-    @if import-once('base.typography') { ... }
+    @import "px-typography-design/_base.typography.scss";
 
 ## Usage
 
