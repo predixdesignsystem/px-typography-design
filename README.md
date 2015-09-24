@@ -2,9 +2,7 @@
 
 The Predix Experience Typography module defines styles for basic typography.
 
-## Sass Docs
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-typography-design/sassdoc
 
 ## Dependencies
 
