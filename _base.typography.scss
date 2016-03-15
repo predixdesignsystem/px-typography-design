@@ -31,10 +31,6 @@ html {
   font-family: $predix-font-family;
 }
 
-:host {
-  font-family: $predix-font-family;
-}
-
 /**
  * Font weights
  */
@@ -49,6 +45,16 @@ html {
 
 .weight--semibold {
   font-weight: 600!important;
+}
+
+/**
+ * the html and :host declarations cannot be adjacent to one other
+ * or cssmin will combine them into a single rule, breaking in
+ * Safari and Firefox.
+ */
+
+:host { 
+  font-family: $predix-font-family;
 }
 
 /* Text-level semantics
