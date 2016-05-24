@@ -1,11 +1,11 @@
 {
   "name": "px-typography-design",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "homepage": "https://github.com/PredixDev/px-typography-design.git",
   "authors": [
     "General Electric"
   ],
-  "description": "Base typographic styles for Predix Experience",
+  "description": "Base typographic styles for Predix UI",
   "main": "_base.typography.scss",
   "keywords": [
     "px",
@@ -19,7 +19,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "OSS_Notice.pdf"
   ],
   "dependencies": {
     "px-colors-design": "https://github.com/PredixDev/px-colors-design.git#~0.2.0",

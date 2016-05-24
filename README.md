@@ -1,12 +1,10 @@
 # Typography
 
-The Predix Experience Typography module defines styles for basic typography.
-
-
+The Predix UI Typography module defines styles for basic typography.
 
 ## Dependencies
 
-Px's Typography module depends on three other Px modules:
+Predix UI's Typography module depends on three other Px modules:
 
 * [px-colors-design](https://github.com/PredixDev/px-colors-design)
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
@@ -22,9 +20,9 @@ The Typography module is also an upstream dependency in this meta kit:
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.com/PredixDev/px-typography-design.git
+    bower install --save px-typography-design
 
-Once installed, `@import` into your project's Sass file in its Base layer:
+Once installed, `@import` into your project's Sass file in its **Base** layer:
 
     @import "px-typography-design/_base.typography.scss";
 
@@ -40,3 +38,5 @@ Individual webfont files should be included in a `type` directory. Files must be
 These classes are available to adjust font-weight:
 
 * `.weight--[light|normal|semibold]`
+
+view the full API [here](http://predixdev.github.io/px-typography-design/sassdoc/)

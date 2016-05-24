@@ -1,6 +1,6 @@
 {
   "name": "px-typography-design",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Base typographic styles for Predix Experience",
   "private": false,
   "scripts": {
