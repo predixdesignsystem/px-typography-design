@@ -8,7 +8,7 @@
 $predix-font-family: "GE Inspira Sans", sans-serif !default;
 
 /// @type String [default] - Webfont path
-$inuit-webfont-path: '../px-typography-design/type' !default;
+$inuit-webfont-path: '/components/px-typography-design/type' !default;
 
 @import "px-defaults-design/_settings.defaults.scss";
 @import "px-colors-design/_settings.colors.scss";
