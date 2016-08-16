@@ -14,10 +14,6 @@ $inuit-webfont-path: '../px-typography-design/type' !default;
 @import "px-colors-design/_settings.colors.scss";
 @import "px-mixins-design/_tools.mixins.scss";
 
-@include font-face('GE Inspira', '#{$inuit-webfont-path}/GEInspMd');
-@include font-face('GE Inspira', '#{$inuit-webfont-path}/GEInspMdIt', normal, italic);
-@include font-face('GE Inspira', '#{$inuit-webfont-path}/GEInspBd', bold, normal);
-@include font-face('GE Inspira', '#{$inuit-webfont-path}/GEInspBI', bold, italic);
 @include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Regular-v01');
 @include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Italic-v01', normal, italic);
 @include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Bold-v01', bold, normal);
@@ -34,7 +30,7 @@ html {
 /**
  * Font weights
  */
- 
+
 .weight--light {
   font-weight: 300!important;
 }
@@ -53,7 +49,7 @@ html {
  * Safari and Firefox.
  */
 
-:host { 
+:host {
   font-family: $predix-font-family;
 }
 
