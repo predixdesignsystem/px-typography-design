@@ -12,7 +12,6 @@
     "sass",
     "typography"
   ],
-  "license": "Apache 2",
   "private": false,
   "ignore": [
     "**/.*",
