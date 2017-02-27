@@ -1,3 +1,7 @@
+v1.2.6
+==================
+* fixed import link in demo from `_settings` to `_base` 
+
 v1.2.5
 ==================
 * update to new demo using px-demo classes
