@@ -12,13 +12,14 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 /// Load fonts locally
 /// @group px-typography-design:variables:style
 /// @type Boolean [default]
-$predix-load-local-fonts: false !default;
+$predix-load-local-fonts: true !default;
 
 /// Webfont path
 /// @group px-typography-design:variables:style
 /// @type String [default]
-$inuit-webfont-path: '//dzlpbrbc7yvq0.cloudfront.net/predixdev/fonts/1.0.0' !default;
+$inuit-webfont-path: '//dzlpbrbc7yvq0.cloudfront.net/predixdev/fonts/2.0.0' !default;
 
+//FIXME: flip back to false when CDN fonts are available
 @if $predix-load-local-fonts == true {
   $inuit-webfont-path: '../px-typography-design/type';
 }
@@ -28,14 +29,10 @@ $inuit-webfont-path: '//dzlpbrbc7yvq0.cloudfront.net/predixdev/fonts/1.0.0' !def
 @import "px-colors-design/_settings.colors.scss";
 @import "px-mixins-design/_tools.mixins.scss";
 
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Regular-v01');
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Italic-v01', normal, italic);
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Bold-v01', bold, normal);
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-BoldItalic-v01', bold, italic);
-@include font-face('GE Inspira Serif', '#{$inuit-webfont-path}/GEInspiraSerif-Regular-v01');
-@include font-face('GE Inspira Serif', '#{$inuit-webfont-path}/GEInspiraSerif-Italic-v01', normal, italic);
-@include font-face('GE Inspira Serif', '#{$inuit-webfont-path}/GEInspiraSerif-Bold-v01', bold, normal);
-@include font-face('GE Inspira Serif', '#{$inuit-webfont-path}/GEInspiraSerif-BoldItalic-v01', bold, italic);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans');
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Italic', normal, italic);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Bold', bold, normal);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-BoldItalic', bold, italic);
 
 html {
   font-family: $predix-font-family;

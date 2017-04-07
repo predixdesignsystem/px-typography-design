@@ -1,6 +1,10 @@
+v2.0.0
+==================
+* Move to new fonts for redesign
+
 v1.2.6
 ==================
-* fixed import link in demo from `_settings` to `_base` 
+* fixed import link in demo from `_settings` to `_base`
 
 v1.2.5
 ==================

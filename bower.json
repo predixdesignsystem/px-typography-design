@@ -1,6 +1,6 @@
 {
   "name": "px-typography-design",
-  "version": "1.2.6",
+  "version": "2.0.0",
   "homepage": "https://github.com/PredixDev/px-typography-design.git",
   "authors": [
     "General Electric"
@@ -31,7 +31,7 @@
     "LICENSE.md"
   ],
   "dependencies": {
-    "px-colors-design": "^0.3.0",
+    "px-colors-design": "^1.0.1",
     "px-defaults-design": "^1.0.2",
     "px-mixins-design": "^0.3.0"
   },
