@@ -36,7 +36,7 @@
     "px-mixins-design": "^0.3.0"
   },
   "devDependencies": {
-    "px-starter-kit-design": "^0.7.0",
-    "px-sass-doc": "^0.4.4"
+    "px-starter-kit-design": "^1.0.0",
+    "px-sass-doc": "^1.0.0"
   }
 }
