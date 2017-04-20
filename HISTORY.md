@@ -1,6 +1,7 @@
 v2.0.0
 ==================
 * Move to new fonts for redesign
+* Simplified class to only .weight--normal & .weight--bold
 
 v1.2.6
 ==================
