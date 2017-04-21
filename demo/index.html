@@ -30,8 +30,7 @@
   choose-with="dropdown"
   choices='[
     "normal (default)",
-    "light",
-    "semibold"
+    "bold"
   ]'
   default-choice="normal (default)">
 </px-sass-doc-option>
@@ -53,12 +52,8 @@
 <span class="weight--normal">Normal Text</span>
 
 
-<!-- Light -->
-<span class="weight--light">Light Text</span>
-
-
-<!-- Semibold -->
-<span class="weight--semibold">Bold Text</span>
+<!-- Bold -->
+<span class="weight--bold">Bold Text</span>
 ```
 </section>
 
@@ -93,8 +88,7 @@
     _typeClasses : function() {
       var opts = this.selectedOptions || {};
       if (opts["Font Weight"] === "normal (default)")    return "weight--normal";
-      if (opts["Font Weight"] === "light")               return "weight--light";
-      if (opts["Font Weight"] === "semibold")            return "weight--semibold";
+      if (opts["Font Weight"] === "bold")            return "weight--bold";
     },
 
     _importCode : function() {
