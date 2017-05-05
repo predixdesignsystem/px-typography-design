@@ -12,14 +12,14 @@ $predix-font-family: "GE Inspira Sans", sans-serif !default;
 /// Load fonts locally
 /// @group px-typography-design:variables:style
 /// @type Boolean [default]
-$predix-load-local-fonts: true !default;
+$predix-load-local-fonts: false !default;
 
 /// Webfont path
 /// @group px-typography-design:variables:style
 /// @type String [default]
 $inuit-webfont-path: '//dzlpbrbc7yvq0.cloudfront.net/predixdev/fonts/2.0.0' !default;
 
-//FIXME: flip back to false when CDN fonts are available
+//flip back to false when CDN fonts are available
 @if $predix-load-local-fonts == true {
   $inuit-webfont-path: '../px-typography-design/type';
 }
