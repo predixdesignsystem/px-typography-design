@@ -1,4 +1,4 @@
-# Typography
+# px-typography-design
 
 The Predix UI Typography module defines styles for basic typography.
 
