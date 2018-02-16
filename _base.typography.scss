@@ -17,7 +17,7 @@ $predix-load-local-fonts: false !default;
 /// Webfont path
 /// @group px-typography-design:variables:style
 /// @type String [default]
-$inuit-webfont-path: '//dzlpbrbc7yvq0.cloudfront.net/predixdev/fonts/1.0.0' !default;
+$inuit-webfont-path: 'https://cdn.predix-ui.com/px-cdn/type/1.0.0' !default;
 
 @if $predix-load-local-fonts == true {
   $inuit-webfont-path: '../px-typography-design/type';

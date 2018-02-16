@@ -1,6 +1,10 @@
+v1.3.0
+==================
+* Move typography CDN over to our own location
+
 v1.2.6
 ==================
-* fixed import link in demo from `_settings` to `_base` 
+* fixed import link in demo from `_settings` to `_base`
 
 v1.2.5
 ==================
