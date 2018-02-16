@@ -1,3 +1,7 @@
+v2.1.0
+==================
+* Move typography CDN over to our own location.
+
 v2.0.4
 ==================
 * Upgrade docs to use Polymer 2.x, bump px-demo and px-sass-doc dependencies
