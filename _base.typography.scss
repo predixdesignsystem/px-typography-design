@@ -19,6 +19,11 @@ $predix-load-local-fonts: false !default;
 /// @type String [default]
 $inuit-webfont-path: 'https://cdn.predix-ui.com/px-cdn/type/2.0.0' !default;
 
+/// Font-display descriptor value used in generating font-face rules
+/// @group px-typography-design:variables:style
+/// @type String [default]
+$predix-font-display: auto !default;
+
 //flip back to false when CDN fonts are available
 @if $predix-load-local-fonts == true {
   $inuit-webfont-path: '../px-typography-design/type';
@@ -29,10 +34,10 @@ $inuit-webfont-path: 'https://cdn.predix-ui.com/px-cdn/type/2.0.0' !default;
 @import "px-colors-design/_settings.colors.scss";
 @import "px-mixins-design/_tools.mixins.scss";
 
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans');
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Italic', normal, italic);
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Bold', bold, normal);
-@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-BoldItalic', bold, italic);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans', null, null, $predix-font-display);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Italic', normal, italic, $predix-font-display);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-Bold', bold, normal, $predix-font-display);
+@include font-face('GE Inspira Sans', '#{$inuit-webfont-path}/GEInspiraSans-BoldItalic', bold, italic, $predix-font-display);
 
 html {
   font-family: $predix-font-family;

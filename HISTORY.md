@@ -1,3 +1,7 @@
+v2.2.0
+==================
+* Add sass variable to allow setting of font-display descriptor
+
 v2.1.0
 ==================
 * Move typography CDN over to our own location.
