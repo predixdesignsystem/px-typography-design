@@ -6,15 +6,15 @@ The Predix UI Typography module defines styles for basic typography.
 
 The `px-typography-design` module depends on three other Px modules:
 
-* [px-colors-design](https://github.com/PredixDev/px-colors-design)
-* [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
-* [px-mixins-design](https://github.com/PredixDev/px-mixins-design)
+* [px-colors-design](https://github.com/predixdesignsystem/px-colors-design)
+* [px-defaults-design](https://github.com/predixdesignsystem/px-defaults-design)
+* [px-mixins-design](https://github.com/predixdesignsystem/px-mixins-design)
 
 ## Upstream dependencies
 
 The `px-typography-design` module is also an upstream dependency in this meta kit:
 
-* [px-starter-kit-design](https://github.com/PredixDev/px-starter-kit-design)
+* [px-starter-kit-design](https://github.com/predixdesignsystem/px-starter-kit-design)
 
 ## Installation
 
@@ -39,4 +39,4 @@ These classes are available to adjust font-weight:
 
 * `.weight--[light|normal|semibold]`
 
-View the full API [here](http://predixdev.github.io/px-typography-design/sassdoc/).
+View the full API [here](https://www.predix-ui.com/#/css/utilities/px-typography-design).
